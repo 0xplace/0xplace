@@ -1,16 +1,19 @@
-### Hi there 👋
+# 0xPlace
 
-<!--
-**0xplace/0xplace** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Permissionless Collaborative Art. 1 Pixel = 1 NFT. Inspired by r/place and milliondollarhomepage.com
 
-Here are some ideas to get you started:
+## What is 0xPlace?
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+0xPlace is a decentralised permissionless collaborative art project. It consists of 1000x1000 pixels stored on-chain that anyone can paint on, trade with, or earn from.
+
+All pixel are minted at a price of 0.01 ETH.
+One can paint over and claim a pixel that has already been painted with double the current price of the pixel, more than half of which will go to the previous owner. 
+(Current returns on 1 pixel for its owner when painted over = 120%)
+
+## License
+
+The core smart contract behind 0xPlace are released under the Business Source License 1.1 (BUSL-1.1).
+
+## Website
+
+Under Devolopment
