@@ -10,6 +10,9 @@ All pixel are minted at a price of 0.01 ETH.
 One can paint over and claim a pixel that has already been painted with double the current price of the pixel, more than half of which will go to the previous owner. 
 (Current returns on 1 pixel for its owner when painted over = 120%)
 
+
+
+
 ## Contract Addresses (Ropsten Testnet)
 
 Utilities: 0x7E7E25Fd9342e5B7A96a214A2E1B5839A8269334
