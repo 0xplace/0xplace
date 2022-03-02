@@ -31,6 +31,35 @@
 	{
 		"inputs": [
 			{
+				"internalType": "address",
+				"name": "mainContractAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "pixelIDs",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "bytes[]",
+				"name": "colours",
+				"type": "bytes[]"
+			}
+		],
+		"name": "batchSetColour",
+		"outputs": [
+			{
+				"internalType": "bool",
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
 				"internalType": "bytes",
 				"name": "c",
 				"type": "bytes"
@@ -162,6 +191,59 @@
 			}
 		],
 		"name": "getSelectPrices",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "mainContractAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "pixelIDs",
+				"type": "uint256[]"
+			},
+			{
+				"internalType": "address",
+				"name": "addr",
+				"type": "address"
+			}
+		],
+		"name": "getSelectPricesIgnoringPixelsOwnedByAddress",
+		"outputs": [
+			{
+				"internalType": "uint256[]",
+				"name": "",
+				"type": "uint256[]"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "mainContractAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "uint256[]",
+				"name": "pixelIDs",
+				"type": "uint256[]"
+			}
+		],
+		"name": "getSelectPricesIgnoringPixelsOwnedByCaller",
 		"outputs": [
 			{
 				"internalType": "uint256[]",
