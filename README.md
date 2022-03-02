@@ -15,9 +15,9 @@ One can paint over and claim a pixel that has already been painted with double t
 
 ## Contract Addresses (Ropsten Testnet)
 
-Utilities: 0x7E7E25Fd9342e5B7A96a214A2E1B5839A8269334
+Utilities: 0x4a8900f5AB33e7bF05cA30841C16f1e57FD0F27d
 
-Main: 0x838dEa34112c737a8ebDE9aE63e5A96AFFDE258A
+Main: 0x59Ad3c5cda716d416398E7FbD1fDD254b1722285
 
 ## License
 
